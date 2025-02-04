@@ -1,7 +1,11 @@
-import "./App.css";
+import Create from "./components/section-create/Create";
 
 function App() {
-  return <>hello</>;
+  return (
+    <>
+      <Create />
+    </>
+  );
 }
 
 export default App;
