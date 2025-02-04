@@ -84,3 +84,43 @@ img {
     transform: rotate(-45deg);
     transition: bottom .3s, transform .3s .15s;
   }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+input {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  padding-inline: 40px;
+  margin-inline: auto;
+}
+
+a.active {
+  color: red;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
