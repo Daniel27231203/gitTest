@@ -1,7 +1,11 @@
-import "./App.css";
+import WorkTab from "./components/workTab/workTab";
 
-function App() {
-  return <>hello</>;
-}
+const App = () => {
+  return (
+    <div>
+      <WorkTab />
+    </div>
+  );
+};
 
 export default App;
