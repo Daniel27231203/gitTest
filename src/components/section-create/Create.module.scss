@@ -1,0 +1,44 @@
+.main {
+  margin-block: 20px;
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .content {
+    .boxes {
+      position: absolute;
+      top: 50px;
+      left: 150px;
+      h3 {
+        color: white;
+        margin-block: 30px;
+        font-size: 18px;
+        font-weight: 600;
+      }
+      button {
+        background-color: #5e4edb;
+        padding: 10px 30px;
+        border-radius: 30px;
+        color: white;
+        font-size: 18px;
+      }
+      .blocks {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .block {
+          display: flex;
+          align-items: center;
+          gap: 25px;
+          background-color: white;
+          padding: 20px 15px;
+          border-radius: 15px;
+          img {
+            width: 100%;
+            max-width: 40px;
+          }
+        }
+      }
+    }
+  }
+}

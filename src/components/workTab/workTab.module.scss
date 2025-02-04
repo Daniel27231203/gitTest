@@ -1,0 +1,21 @@
+.workTab {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .container {
+    .work {
+      h1 {
+        color: rgba(34, 34, 34, 1);
+        font-size: 30px;
+        font-weight: 600;
+      }
+      p {
+        color: rgba(34, 34, 34, 1);
+      }
+      .box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}
