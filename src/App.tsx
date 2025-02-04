@@ -1,3 +1,4 @@
+import Hero from "./components/Sections/Hero";
 
 import WorkTab from "./components/workTab/workTab";
 
@@ -8,6 +9,8 @@ function App() {
   return (
     <>
     header
+      <Hero />
+        
         <HeroBottom />
       <WorkTab />
       <Create />
