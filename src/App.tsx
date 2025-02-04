@@ -1,23 +1,19 @@
 import Hero from "./components/Sections/Hero";
+import HeroBottom from "./components/Sections/secondSection/HeroBottom";
 
-import WorkTab from "./components/workTab/workTab";
-
-import HeroBottom from "./components/sections/secondSection/HeroBottom";
 import Create from "./components/section-create/Create";
+import WorkTab from "./components/workTab/WorkTab";
 
 function App() {
   return (
     <>
-    header
+      headerg
       <Hero />
-        
-        <HeroBottom />
+      <HeroBottom />
       <WorkTab />
       <Create />
-        
     </>
   );
-
 }
 
 export default App;
