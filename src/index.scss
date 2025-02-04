@@ -84,3 +84,14 @@ img {
     transform: rotate(-45deg);
     transition: bottom .3s, transform .3s .15s;
   }
+
+  .wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1;
+  }
