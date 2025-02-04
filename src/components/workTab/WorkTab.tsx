@@ -8,7 +8,7 @@ const WorkTab = () => {
     <div className={scss.workTab}>
       <div className={scss.container}>
         <div className={scss.work}>
-          <h1>Как решать задачи на WorkTap?</h1>
+          <h1> WorkTap?</h1>
           <p>Идеально подходит для бизнеса и частных лиц</p>
           <div className={scss.box}>
             <div>
