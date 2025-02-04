@@ -1,9 +1,12 @@
-h1 {
-  span {
-    color: rgb(41, 181, 41);
+.hero {
+  .container {
+    .hero {
+      .herOne {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+    }
   }
-}
-
-.box {
-  width: 500px;
 }
