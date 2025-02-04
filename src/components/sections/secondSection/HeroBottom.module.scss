@@ -1,0 +1,15 @@
+.HeroBottom {
+  .content {
+    .works {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      .work {
+        .profiles {
+          img {
+            width: 44px;
+          }
+        }
+      }
+    }
+  }
+}

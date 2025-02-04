@@ -1,11 +1,20 @@
+
 import WorkTab from "./components/workTab/workTab";
 
-const App = () => {
+import HeroBottom from "./components/sections/secondSection/HeroBottom";
+import Create from "./components/section-create/Create";
+
+function App() {
   return (
-    <div>
+    <>
+    header
+        <HeroBottom />
       <WorkTab />
-    </div>
+      <Create />
+        
+    </>
   );
-};
+
+}
 
 export default App;
