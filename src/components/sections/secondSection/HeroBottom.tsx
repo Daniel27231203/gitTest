@@ -7,7 +7,7 @@ const HeroBottom = () => {
     <div className={scss.HeroBottom}>
       <div className="container">
         <div className={scss.content}>
-          <h1>Актуальные ворки</h1>
+          <h1>Hello Nora</h1>
           <div className={scss.works}>
             <div className={scss.work}>
               <div className={scss.profiles}>
